@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8" />
+        <title>Bob's Spare Parts</title>
+    </head>
+
+    <body>
+        <form action="preprocessor.php" method="POST">
+            <table>
+                <thead "style=text-align:center">
+                    <th>Items</th>
+                    <th>Description</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </thead>
+                <tbody "style=text-align:center">
+                    <tr>
+                        <td>Tires</td>
+                        <td>Tires of all types and of all makes and of all thread configurations are available here!. You name it and we have it</td>
+                        <td><input type="number" name="tyreQntty" maxlength="3" /></td>
+                        <td><span>$20.00</span></td>
+                    </tr>
+                    <tr>
+                        <td>Oil</td>
+                        <td>All kinds of oils and hydraulic fluids are available here.</td>
+                        <td><input type="number" name="oilQntty" maxlength="3" /></td>
+                        <td><span>$20.00-$100.00</span></td>
+                    </tr>
+                    <tr>
+                        <td>Spark Plugs</td>
+                        <td>Spark Plugs for all kinds of uses.</td>
+                        <td><input type="number" name="sparkPlgQntty" maxlength="3" /></td>
+                        <td><span>$40.00-$200</span></td>
+                    </tr>
+                    <tr>
+                        <input type="submit" value="Submit Order" />
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>
